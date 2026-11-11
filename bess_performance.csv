@@ -1,0 +1,731 @@
+cycle_id,site_name,cycle_date,energy_in_kwh,energy_out_kwh,efficiency_pct,charge_zone,charge_cost_eur,status
+1,BESS_North,2024-01-01,90.3,83.8,92.8,off-peak,16.25,OK
+2,BESS_South,2024-01-01,73.9,66.9,90.53,off-peak,13.3,OK
+3,BESS_North,2024-01-02,95.6,89.1,93.2,off-peak,17.21,OK
+4,BESS_South,2024-01-02,76.1,68.9,90.54,off-peak,13.7,OK
+5,BESS_North,2024-01-03,91.6,85.6,93.45,off-peak,16.49,OK
+6,BESS_South,2024-01-03,76.5,69.7,91.11,off-peak,13.77,OK
+7,BESS_North,2024-01-04,99.7,92.6,92.88,off-peak,17.95,OK
+8,BESS_South,2024-01-04,73.8,67.3,91.19,off-peak,13.28,OK
+9,BESS_North,2024-01-05,98.6,92.0,93.31,off-peak,17.75,OK
+10,BESS_South,2024-01-05,71.7,65.0,90.66,off-peak,12.91,OK
+11,BESS_North,2024-01-06,96.1,89.0,92.61,off-peak,17.3,OK
+12,BESS_South,2024-01-06,77.9,71.0,91.14,off-peak,14.02,OK
+13,BESS_North,2024-01-07,98.2,91.6,93.28,off-peak,17.68,OK
+14,BESS_South,2024-01-07,70.1,63.8,91.01,off-peak,12.62,OK
+15,BESS_North,2024-01-08,91.4,85.2,93.22,off-peak,16.45,OK
+16,BESS_South,2024-01-08,71.6,65.5,91.48,off-peak,12.89,OK
+17,BESS_North,2024-01-09,91.5,84.7,92.57,off-peak,16.47,OK
+18,BESS_South,2024-01-09,74.0,67.3,90.95,off-peak,13.32,OK
+19,BESS_North,2024-01-10,96.8,90.0,92.98,off-peak,17.42,OK
+20,BESS_South,2024-01-10,72.3,65.7,90.87,off-peak,13.01,OK
+21,BESS_North,2024-01-11,95.1,88.0,92.53,off-peak,17.12,OK
+22,BESS_South,2024-01-11,69.5,63.4,91.22,off-peak,12.51,OK
+23,BESS_North,2024-01-12,96.0,89.2,92.92,off-peak,17.28,OK
+24,BESS_South,2024-01-12,68.6,62.6,91.25,off-peak,12.35,OK
+25,BESS_North,2024-01-13,99.8,92.8,92.99,off-peak,17.96,OK
+26,BESS_South,2024-01-13,70.7,64.5,91.23,off-peak,12.73,OK
+27,BESS_North,2024-01-14,97.1,90.1,92.79,off-peak,17.48,OK
+28,BESS_South,2024-01-14,69.2,62.7,90.61,off-peak,12.46,OK
+29,BESS_North,2024-01-15,90.1,83.9,93.12,off-peak,16.22,OK
+30,BESS_South,2024-01-15,68.7,62.3,90.68,off-peak,12.37,OK
+31,BESS_North,2024-01-16,92.4,85.8,92.86,off-peak,16.63,OK
+32,BESS_South,2024-01-16,71.5,64.9,90.77,off-peak,12.87,OK
+33,BESS_North,2024-01-17,90.6,84.4,93.16,off-peak,16.31,OK
+34,BESS_South,2024-01-17,73.4,66.4,90.46,off-peak,13.21,OK
+35,BESS_North,2024-01-18,98.1,91.5,93.27,off-peak,17.66,OK
+36,BESS_South,2024-01-18,77.7,70.9,91.25,off-peak,13.99,OK
+37,BESS_North,2024-01-19,92.1,85.5,92.83,off-peak,16.58,OK
+38,BESS_South,2024-01-19,77.3,70.5,91.2,off-peak,13.91,OK
+39,BESS_North,2024-01-20,91.5,84.8,92.68,off-peak,16.47,OK
+40,BESS_South,2024-01-20,75.5,68.3,90.46,off-peak,13.59,OK
+41,BESS_North,2024-01-21,90.6,84.2,92.94,off-peak,16.31,OK
+42,BESS_South,2024-01-21,72.0,65.7,91.25,off-peak,12.96,OK
+43,BESS_North,2024-01-22,94.2,87.6,92.99,off-peak,16.96,OK
+44,BESS_South,2024-01-22,70.4,63.9,90.77,off-peak,12.67,OK
+45,BESS_North,2024-01-23,90.1,83.8,93.01,off-peak,16.22,OK
+46,BESS_South,2024-01-23,73.1,66.1,90.42,off-peak,13.16,OK
+47,BESS_North,2024-01-24,92.8,86.1,92.78,off-peak,16.7,OK
+48,BESS_South,2024-01-24,74.7,67.9,90.9,off-peak,13.45,OK
+49,BESS_North,2024-01-25,91.2,84.3,92.43,off-peak,16.42,OK
+50,BESS_South,2024-01-25,75.2,68.1,90.56,off-peak,13.54,OK
+51,BESS_North,2024-01-26,99.1,92.4,93.24,off-peak,17.84,OK
+52,BESS_South,2024-01-26,68.0,61.9,91.03,off-peak,12.24,OK
+53,BESS_North,2024-01-27,95.5,88.6,92.77,off-peak,17.19,OK
+54,BESS_South,2024-01-27,73.5,67.0,91.16,off-peak,13.23,OK
+55,BESS_North,2024-01-28,93.1,86.8,93.23,off-peak,16.76,OK
+56,BESS_South,2024-01-28,74.8,68.0,90.91,off-peak,13.46,OK
+57,BESS_North,2024-01-29,99.3,91.9,92.55,off-peak,17.87,OK
+58,BESS_South,2024-01-29,68.2,62.1,91.06,off-peak,12.28,OK
+59,BESS_North,2024-01-30,92.7,86.3,93.1,off-peak,16.69,OK
+60,BESS_South,2024-01-30,70.0,63.8,91.14,off-peak,12.6,OK
+61,BESS_North,2024-01-31,90.2,83.5,92.57,off-peak,16.24,OK
+62,BESS_South,2024-01-31,74.4,67.5,90.73,off-peak,13.39,OK
+63,BESS_North,2024-02-01,98.8,91.5,92.61,off-peak,17.78,OK
+64,BESS_South,2024-02-01,74.0,67.0,90.54,off-peak,13.32,OK
+65,BESS_North,2024-02-02,93.9,87.2,92.86,off-peak,16.9,OK
+66,BESS_South,2024-02-02,71.6,64.7,90.36,off-peak,12.89,OK
+67,BESS_North,2024-02-03,97.2,90.0,92.59,off-peak,17.5,OK
+68,BESS_South,2024-02-03,73.5,66.5,90.48,off-peak,13.23,OK
+69,BESS_North,2024-02-04,96.2,89.1,92.62,off-peak,17.32,OK
+70,BESS_South,2024-02-04,72.3,65.7,90.87,off-peak,13.01,OK
+71,BESS_North,2024-02-05,95.1,88.6,93.17,off-peak,17.12,OK
+72,BESS_South,2024-02-05,70.8,64.3,90.82,off-peak,12.74,OK
+73,BESS_North,2024-02-06,92.2,85.3,92.52,off-peak,16.6,OK
+74,BESS_South,2024-02-06,72.6,66.1,91.05,off-peak,13.07,OK
+75,BESS_North,2024-02-07,94.0,86.9,92.45,off-peak,16.92,OK
+76,BESS_South,2024-02-07,70.2,63.9,91.03,off-peak,12.64,OK
+77,BESS_North,2024-02-08,99.2,91.7,92.44,off-peak,17.86,OK
+78,BESS_South,2024-02-08,77.5,70.6,91.1,off-peak,13.95,OK
+79,BESS_North,2024-02-09,98.3,91.3,92.88,off-peak,17.69,OK
+80,BESS_South,2024-02-09,70.6,63.8,90.37,off-peak,12.71,OK
+81,BESS_North,2024-02-10,96.3,89.1,92.52,off-peak,17.33,OK
+82,BESS_South,2024-02-10,71.2,64.6,90.73,off-peak,12.82,OK
+83,BESS_North,2024-02-11,97.1,89.7,92.38,off-peak,17.48,OK
+84,BESS_South,2024-02-11,70.1,63.5,90.58,off-peak,12.62,OK
+85,BESS_North,2024-02-12,98.6,91.8,93.1,off-peak,17.75,OK
+86,BESS_South,2024-02-12,75.5,68.7,90.99,off-peak,13.59,OK
+87,BESS_North,2024-02-13,94.9,87.8,92.52,off-peak,17.08,OK
+88,BESS_South,2024-02-13,75.2,68.4,90.96,off-peak,13.54,OK
+89,BESS_North,2024-02-14,99.1,92.0,92.84,off-peak,17.84,OK
+90,BESS_South,2024-02-14,76.7,69.3,90.35,off-peak,13.81,OK
+91,BESS_North,2024-02-15,93.4,87.0,93.15,off-peak,16.81,OK
+92,BESS_South,2024-02-15,76.3,69.1,90.56,off-peak,13.73,OK
+93,BESS_North,2024-02-16,96.5,89.8,93.06,off-peak,17.37,OK
+94,BESS_South,2024-02-16,76.4,69.3,90.71,off-peak,13.75,OK
+95,BESS_North,2024-02-17,94.7,87.6,92.5,off-peak,17.05,OK
+96,BESS_South,2024-02-17,75.8,68.4,90.24,off-peak,13.64,OK
+97,BESS_North,2024-02-18,94.0,87.4,92.98,off-peak,16.92,OK
+98,BESS_South,2024-02-18,69.0,62.7,90.87,off-peak,12.42,OK
+99,BESS_North,2024-02-19,93.5,86.7,92.73,off-peak,16.83,OK
+100,BESS_South,2024-02-19,76.5,69.6,90.98,off-peak,13.77,OK
+101,BESS_North,2024-02-20,97.1,90.0,92.69,off-peak,17.48,OK
+102,BESS_South,2024-02-20,72.6,66.0,90.91,off-peak,13.07,OK
+103,BESS_North,2024-02-21,92.8,86.0,92.67,off-peak,16.7,OK
+104,BESS_South,2024-02-21,71.4,64.7,90.62,off-peak,12.85,OK
+105,BESS_North,2024-02-22,93.4,87.0,93.15,off-peak,16.81,OK
+106,BESS_South,2024-02-22,68.9,62.6,90.86,off-peak,12.4,OK
+107,BESS_North,2024-02-23,96.5,89.5,92.75,off-peak,17.37,OK
+108,BESS_South,2024-02-23,74.9,67.7,90.39,off-peak,13.48,OK
+109,BESS_North,2024-02-24,94.3,87.7,93.0,off-peak,16.97,OK
+110,BESS_South,2024-02-24,70.5,63.6,90.21,off-peak,12.69,OK
+111,BESS_North,2024-02-25,91.9,85.4,92.93,off-peak,16.54,OK
+112,BESS_South,2024-02-25,77.8,70.7,90.87,off-peak,14.0,OK
+113,BESS_North,2024-02-26,97.1,89.7,92.38,off-peak,17.48,OK
+114,BESS_South,2024-02-26,74.4,67.6,90.86,off-peak,13.39,OK
+115,BESS_North,2024-02-27,94.8,87.7,92.51,off-peak,17.06,OK
+116,BESS_South,2024-02-27,76.2,68.9,90.42,off-peak,13.72,OK
+117,BESS_North,2024-02-28,91.5,84.9,92.79,off-peak,16.47,OK
+118,BESS_South,2024-02-28,74.1,67.3,90.82,off-peak,13.34,OK
+119,BESS_North,2024-02-29,93.0,86.3,92.8,off-peak,16.74,OK
+120,BESS_South,2024-02-29,77.5,69.9,90.19,off-peak,13.95,OK
+121,BESS_North,2024-03-01,91.7,84.6,92.26,off-peak,16.51,OK
+122,BESS_South,2024-03-01,70.9,64.0,90.27,off-peak,12.76,OK
+123,BESS_North,2024-03-02,96.9,90.2,93.09,off-peak,17.44,OK
+124,BESS_South,2024-03-02,72.3,65.5,90.59,off-peak,13.01,OK
+125,BESS_North,2024-03-03,90.6,84.2,92.94,off-peak,16.31,OK
+126,BESS_South,2024-03-03,69.2,62.8,90.75,off-peak,12.46,OK
+127,BESS_North,2024-03-04,94.4,87.6,92.8,off-peak,16.99,OK
+128,BESS_South,2024-03-04,68.3,61.6,90.19,off-peak,12.29,OK
+129,BESS_North,2024-03-05,100.0,92.9,92.9,off-peak,18.0,OK
+130,BESS_South,2024-03-05,73.2,66.2,90.44,off-peak,13.18,OK
+131,BESS_North,2024-03-06,99.7,92.4,92.68,off-peak,17.95,OK
+132,BESS_South,2024-03-06,71.3,64.7,90.74,off-peak,12.83,OK
+133,BESS_North,2024-03-07,94.5,87.4,92.49,off-peak,17.01,OK
+134,BESS_South,2024-03-07,74.6,67.5,90.48,off-peak,13.43,OK
+135,BESS_North,2024-03-08,96.3,89.5,92.94,off-peak,17.33,OK
+136,BESS_South,2024-03-08,76.8,69.5,90.49,off-peak,13.82,OK
+137,BESS_North,2024-03-09,93.1,85.8,92.16,off-peak,16.76,OK
+138,BESS_South,2024-03-09,77.5,70.2,90.58,off-peak,13.95,OK
+139,BESS_North,2024-03-10,94.2,87.3,92.68,off-peak,16.96,OK
+140,BESS_South,2024-03-10,69.9,63.3,90.56,off-peak,12.58,OK
+141,BESS_North,2024-03-11,97.7,90.9,93.04,off-peak,17.59,OK
+142,BESS_South,2024-03-11,70.8,63.9,90.25,off-peak,12.74,OK
+143,BESS_North,2024-03-12,94.5,87.5,92.59,off-peak,17.01,OK
+144,BESS_South,2024-03-12,77.3,70.2,90.82,off-peak,13.91,OK
+145,BESS_North,2024-03-13,98.6,91.3,92.6,off-peak,17.75,OK
+146,BESS_South,2024-03-13,77.9,70.7,90.76,off-peak,14.02,OK
+147,BESS_North,2024-03-14,95.0,88.1,92.74,off-peak,17.1,OK
+148,BESS_South,2024-03-14,73.3,66.2,90.31,off-peak,13.19,OK
+149,BESS_North,2024-03-15,90.7,84.3,92.94,off-peak,16.33,OK
+150,BESS_South,2024-03-15,76.5,69.4,90.72,off-peak,13.77,OK
+151,BESS_North,2024-03-16,98.7,91.0,92.2,off-peak,17.77,OK
+152,BESS_South,2024-03-16,75.5,68.2,90.33,off-peak,13.59,OK
+153,BESS_North,2024-03-17,91.7,84.7,92.37,off-peak,16.51,OK
+154,BESS_South,2024-03-17,71.6,64.7,90.36,off-peak,12.89,OK
+155,BESS_North,2024-03-18,91.7,84.5,92.15,off-peak,16.51,OK
+156,BESS_South,2024-03-18,77.1,69.4,90.01,off-peak,13.88,OK
+157,BESS_North,2024-03-19,99.0,91.6,92.53,off-peak,17.82,OK
+158,BESS_South,2024-03-19,77.5,70.4,90.84,off-peak,13.95,OK
+159,BESS_North,2024-03-20,94.6,87.4,92.39,off-peak,17.03,OK
+160,BESS_South,2024-03-20,71.8,64.8,90.25,off-peak,12.92,OK
+161,BESS_North,2024-03-21,92.7,85.9,92.66,off-peak,16.69,OK
+162,BESS_South,2024-03-21,76.3,69.3,90.83,off-peak,13.73,OK
+163,BESS_North,2024-03-22,96.4,89.4,92.74,off-peak,17.35,OK
+164,BESS_South,2024-03-22,74.3,67.4,90.71,off-peak,13.37,OK
+165,BESS_North,2024-03-23,95.8,88.9,92.8,off-peak,17.24,OK
+166,BESS_South,2024-03-23,69.8,62.8,89.97,off-peak,12.56,Below target
+167,BESS_North,2024-03-24,98.3,90.8,92.37,off-peak,17.69,OK
+168,BESS_South,2024-03-24,76.0,68.6,90.26,off-peak,13.68,OK
+169,BESS_North,2024-03-25,99.7,92.6,92.88,off-peak,17.95,OK
+170,BESS_South,2024-03-25,73.4,66.3,90.33,off-peak,13.21,OK
+171,BESS_North,2024-03-26,98.2,91.3,92.97,off-peak,17.68,OK
+172,BESS_South,2024-03-26,77.2,69.5,90.03,off-peak,13.9,OK
+173,BESS_North,2024-03-27,96.5,89.0,92.23,off-peak,17.37,OK
+174,BESS_South,2024-03-27,69.0,62.6,90.72,off-peak,12.42,OK
+175,BESS_North,2024-03-28,95.9,89.0,92.81,off-peak,17.26,OK
+176,BESS_South,2024-03-28,77.4,69.7,90.05,off-peak,13.93,OK
+177,BESS_North,2024-03-29,98.6,90.9,92.19,off-peak,17.75,OK
+178,BESS_South,2024-03-29,68.6,61.8,90.09,off-peak,12.35,OK
+179,BESS_North,2024-03-30,96.6,89.5,92.65,off-peak,17.39,OK
+180,BESS_South,2024-03-30,77.9,70.6,90.63,off-peak,14.02,OK
+181,BESS_North,2024-03-31,95.9,89.1,92.91,off-peak,17.26,OK
+182,BESS_South,2024-03-31,70.8,64.3,90.82,off-peak,12.74,OK
+183,BESS_North,2024-04-01,96.6,88.9,92.03,off-peak,17.39,OK
+184,BESS_South,2024-04-01,68.2,61.4,90.03,off-peak,12.28,OK
+185,BESS_North,2024-04-02,94.8,88.0,92.83,off-peak,17.06,OK
+186,BESS_South,2024-04-02,77.5,69.6,89.81,off-peak,13.95,Below target
+187,BESS_North,2024-04-03,94.6,88.0,93.02,off-peak,17.03,OK
+188,BESS_South,2024-04-03,74.9,67.6,90.25,off-peak,13.48,OK
+189,BESS_North,2024-04-04,96.1,88.5,92.09,off-peak,17.3,OK
+190,BESS_South,2024-04-04,71.8,64.9,90.39,off-peak,12.92,OK
+191,BESS_North,2024-04-05,97.9,90.2,92.13,off-peak,17.62,OK
+192,BESS_South,2024-04-05,72.3,65.5,90.59,off-peak,13.01,OK
+193,BESS_North,2024-04-06,97.3,89.8,92.29,off-peak,17.51,OK
+194,BESS_South,2024-04-06,68.7,62.2,90.54,off-peak,12.37,OK
+195,BESS_North,2024-04-07,98.1,90.8,92.56,off-peak,17.66,OK
+196,BESS_South,2024-04-07,72.1,65.3,90.57,off-peak,12.98,OK
+197,BESS_North,2024-04-08,99.7,92.3,92.58,off-peak,17.95,OK
+198,BESS_South,2024-04-08,74.6,67.1,89.95,off-peak,13.43,Below target
+199,BESS_North,2024-04-09,97.6,90.4,92.62,off-peak,17.57,OK
+200,BESS_South,2024-04-09,74.1,67.0,90.42,off-peak,13.34,OK
+201,BESS_North,2024-04-10,99.2,91.6,92.34,off-peak,17.86,OK
+202,BESS_South,2024-04-10,68.7,62.1,90.39,off-peak,12.37,OK
+203,BESS_North,2024-04-11,93.8,86.7,92.43,off-peak,16.88,OK
+204,BESS_South,2024-04-11,76.8,69.0,89.84,off-peak,13.82,Below target
+205,BESS_North,2024-04-12,94.4,87.2,92.37,off-peak,16.99,OK
+206,BESS_South,2024-04-12,71.5,64.2,89.79,off-peak,12.87,Below target
+207,BESS_North,2024-04-13,90.5,83.6,92.38,off-peak,16.29,OK
+208,BESS_South,2024-04-13,75.7,68.5,90.49,off-peak,13.63,OK
+209,BESS_North,2024-04-14,91.8,84.8,92.37,off-peak,16.52,OK
+210,BESS_South,2024-04-14,68.7,62.2,90.54,off-peak,12.37,OK
+211,BESS_North,2024-04-15,95.8,88.7,92.59,off-peak,17.24,OK
+212,BESS_South,2024-04-15,68.2,61.4,90.03,off-peak,12.28,OK
+213,BESS_North,2024-04-16,90.9,84.4,92.85,off-peak,16.36,OK
+214,BESS_South,2024-04-16,72.0,64.8,90.0,off-peak,12.96,OK
+215,BESS_North,2024-04-17,95.1,87.6,92.11,off-peak,17.12,OK
+216,BESS_South,2024-04-17,75.3,68.1,90.44,off-peak,13.55,OK
+217,BESS_North,2024-04-18,92.0,85.2,92.61,off-peak,16.56,OK
+218,BESS_South,2024-04-18,72.6,65.5,90.22,off-peak,13.07,OK
+219,BESS_North,2024-04-19,98.6,91.3,92.6,off-peak,17.75,OK
+220,BESS_South,2024-04-19,76.0,68.6,90.26,off-peak,13.68,OK
+221,BESS_North,2024-04-20,90.4,83.5,92.37,off-peak,16.27,OK
+222,BESS_South,2024-04-20,72.6,65.5,90.22,off-peak,13.07,OK
+223,BESS_North,2024-04-21,93.2,86.1,92.38,off-peak,16.78,OK
+224,BESS_South,2024-04-21,77.8,69.8,89.72,off-peak,14.0,Below target
+225,BESS_North,2024-04-22,99.9,92.4,92.49,off-peak,17.98,OK
+226,BESS_South,2024-04-22,72.1,64.8,89.88,off-peak,12.98,Below target
+227,BESS_North,2024-04-23,90.7,83.5,92.06,off-peak,16.33,OK
+228,BESS_South,2024-04-23,71.3,64.3,90.18,off-peak,12.83,OK
+229,BESS_North,2024-04-24,91.3,84.6,92.66,off-peak,16.43,OK
+230,BESS_South,2024-04-24,76.1,68.7,90.28,off-peak,13.7,OK
+231,BESS_North,2024-04-25,96.5,89.1,92.33,off-peak,17.37,OK
+232,BESS_South,2024-04-25,71.4,64.5,90.34,off-peak,12.85,OK
+233,BESS_North,2024-04-26,93.0,86.2,92.69,off-peak,16.74,OK
+234,BESS_South,2024-04-26,74.6,67.5,90.48,off-peak,13.43,OK
+235,BESS_North,2024-04-27,91.8,85.0,92.59,off-peak,16.52,OK
+236,BESS_South,2024-04-27,68.4,61.5,89.91,off-peak,12.31,Below target
+237,BESS_North,2024-04-28,97.5,90.4,92.72,off-peak,17.55,OK
+238,BESS_South,2024-04-28,71.7,64.9,90.52,off-peak,12.91,OK
+239,BESS_North,2024-04-29,95.0,87.7,92.32,off-peak,17.1,OK
+240,BESS_South,2024-04-29,76.7,68.7,89.57,off-peak,13.81,Below target
+241,BESS_North,2024-04-30,92.9,86.1,92.68,off-peak,16.72,OK
+242,BESS_South,2024-04-30,68.9,62.3,90.42,off-peak,12.4,OK
+243,BESS_North,2024-05-01,90.5,83.6,92.38,off-peak,16.29,OK
+244,BESS_South,2024-05-01,68.3,61.8,90.48,off-peak,12.29,OK
+245,BESS_North,2024-05-02,90.4,83.9,92.81,off-peak,16.27,OK
+246,BESS_South,2024-05-02,72.5,64.9,89.52,off-peak,13.05,Below target
+247,BESS_North,2024-05-03,91.1,84.0,92.21,off-peak,16.4,OK
+248,BESS_South,2024-05-03,68.6,62.0,90.38,off-peak,12.35,OK
+249,BESS_North,2024-05-04,97.2,89.6,92.18,off-peak,17.5,OK
+250,BESS_South,2024-05-04,69.9,63.0,90.13,off-peak,12.58,OK
+251,BESS_North,2024-05-05,93.9,86.7,92.33,off-peak,16.9,OK
+252,BESS_South,2024-05-05,71.6,64.1,89.53,off-peak,12.89,Below target
+253,BESS_North,2024-05-06,91.3,84.2,92.22,off-peak,16.43,OK
+254,BESS_South,2024-05-06,77.8,70.0,89.97,off-peak,14.0,Below target
+255,BESS_North,2024-05-07,90.4,83.2,92.04,off-peak,16.27,OK
+256,BESS_South,2024-05-07,73.2,66.2,90.44,off-peak,13.18,OK
+257,BESS_North,2024-05-08,92.9,86.1,92.68,off-peak,16.72,OK
+258,BESS_South,2024-05-08,76.0,68.3,89.87,off-peak,13.68,Below target
+259,BESS_North,2024-05-09,99.7,92.1,92.38,off-peak,17.95,OK
+260,BESS_South,2024-05-09,76.0,68.5,90.13,off-peak,13.68,OK
+261,BESS_North,2024-05-10,93.2,85.7,91.95,off-peak,16.78,OK
+262,BESS_South,2024-05-10,69.7,62.7,89.96,off-peak,12.55,Below target
+263,BESS_North,2024-05-11,92.7,86.0,92.77,off-peak,16.69,OK
+264,BESS_South,2024-05-11,71.6,64.6,90.22,off-peak,12.89,OK
+265,BESS_North,2024-05-12,90.3,83.0,91.92,off-peak,16.25,OK
+266,BESS_South,2024-05-12,74.1,66.8,90.15,off-peak,13.34,OK
+267,BESS_North,2024-05-13,95.3,87.9,92.24,off-peak,17.15,OK
+268,BESS_South,2024-05-13,75.4,67.8,89.92,off-peak,13.57,Below target
+269,BESS_North,2024-05-14,97.0,89.3,92.06,off-peak,17.46,OK
+270,BESS_South,2024-05-14,69.2,62.5,90.32,off-peak,12.46,OK
+271,BESS_North,2024-05-15,98.1,91.0,92.76,off-peak,17.66,OK
+272,BESS_South,2024-05-15,73.5,65.9,89.66,off-peak,13.23,Below target
+273,BESS_North,2024-05-16,97.9,90.4,92.34,off-peak,17.62,OK
+274,BESS_South,2024-05-16,75.9,67.9,89.46,off-peak,13.66,Below target
+275,BESS_North,2024-05-17,96.1,88.3,91.88,off-peak,17.3,OK
+276,BESS_South,2024-05-17,73.3,66.1,90.18,off-peak,13.19,OK
+277,BESS_North,2024-05-18,94.5,87.4,92.49,off-peak,17.01,OK
+278,BESS_South,2024-05-18,75.7,67.8,89.56,off-peak,13.63,Below target
+279,BESS_North,2024-05-19,93.0,85.5,91.94,off-peak,16.74,OK
+280,BESS_South,2024-05-19,76.5,68.6,89.67,off-peak,13.77,Below target
+281,BESS_North,2024-05-20,96.1,88.3,91.88,off-peak,17.3,OK
+282,BESS_South,2024-05-20,69.7,62.7,89.96,off-peak,12.55,Below target
+283,BESS_North,2024-05-21,98.3,90.3,91.86,off-peak,17.69,OK
+284,BESS_South,2024-05-21,74.5,67.2,90.2,off-peak,13.41,OK
+285,BESS_North,2024-05-22,96.4,88.8,92.12,off-peak,17.35,OK
+286,BESS_South,2024-05-22,72.5,65.3,90.07,off-peak,13.05,OK
+287,BESS_North,2024-05-23,93.4,85.9,91.97,off-peak,16.81,OK
+288,BESS_South,2024-05-23,69.3,62.2,89.75,off-peak,12.47,Below target
+289,BESS_North,2024-05-24,92.7,85.3,92.02,off-peak,16.69,OK
+290,BESS_South,2024-05-24,70.5,63.6,90.21,off-peak,12.69,OK
+291,BESS_North,2024-05-25,91.9,84.5,91.95,off-peak,16.54,OK
+292,BESS_South,2024-05-25,68.2,61.6,90.32,off-peak,12.28,OK
+293,BESS_North,2024-05-26,90.5,83.3,92.04,off-peak,16.29,OK
+294,BESS_South,2024-05-26,70.9,63.3,89.28,off-peak,12.76,Below target
+295,BESS_North,2024-05-27,97.6,89.9,92.11,off-peak,17.57,OK
+296,BESS_South,2024-05-27,73.5,65.7,89.39,off-peak,13.23,Below target
+297,BESS_North,2024-05-28,91.3,83.9,91.89,off-peak,16.43,OK
+298,BESS_South,2024-05-28,75.5,67.6,89.54,off-peak,13.59,Below target
+299,BESS_North,2024-05-29,91.4,84.2,92.12,off-peak,16.45,OK
+300,BESS_South,2024-05-29,71.3,64.1,89.9,off-peak,12.83,Below target
+301,BESS_North,2024-05-30,95.9,88.5,92.28,off-peak,17.26,OK
+302,BESS_South,2024-05-30,72.7,64.9,89.27,off-peak,13.09,Below target
+303,BESS_North,2024-05-31,98.0,90.6,92.45,off-peak,17.64,OK
+304,BESS_South,2024-05-31,77.7,70.0,90.09,off-peak,13.99,OK
+305,BESS_North,2024-06-01,95.8,88.1,91.96,off-peak,17.24,OK
+306,BESS_South,2024-06-01,76.2,68.2,89.5,off-peak,13.72,Below target
+307,BESS_North,2024-06-02,94.4,87.0,92.16,off-peak,16.99,OK
+308,BESS_South,2024-06-02,76.7,69.0,89.96,off-peak,13.81,Below target
+309,BESS_North,2024-06-03,100.0,92.2,92.2,off-peak,18.0,OK
+310,BESS_South,2024-06-03,73.5,66.1,89.93,off-peak,13.23,Below target
+311,BESS_North,2024-06-04,96.1,88.3,91.88,off-peak,17.3,OK
+312,BESS_South,2024-06-04,75.7,68.1,89.96,off-peak,13.63,Below target
+313,BESS_North,2024-06-05,95.6,88.6,92.68,off-peak,17.21,OK
+314,BESS_South,2024-06-05,77.0,69.0,89.61,off-peak,13.86,Below target
+315,BESS_North,2024-06-06,90.4,83.8,92.7,off-peak,16.27,OK
+316,BESS_South,2024-06-06,75.5,67.5,89.4,off-peak,13.59,Below target
+317,BESS_North,2024-06-07,91.4,84.4,92.34,off-peak,16.45,OK
+318,BESS_South,2024-06-07,74.4,66.4,89.25,off-peak,13.39,Below target
+319,BESS_North,2024-06-08,90.1,83.1,92.23,off-peak,16.22,OK
+320,BESS_South,2024-06-08,74.5,67.0,89.93,off-peak,13.41,Below target
+321,BESS_North,2024-06-09,96.5,88.7,91.92,off-peak,17.37,OK
+322,BESS_South,2024-06-09,72.2,65.0,90.03,off-peak,13.0,OK
+323,BESS_North,2024-06-10,91.9,85.0,92.49,off-peak,16.54,OK
+324,BESS_South,2024-06-10,71.0,63.8,89.86,off-peak,12.78,Below target
+325,BESS_North,2024-06-11,98.9,90.8,91.81,off-peak,17.8,OK
+326,BESS_South,2024-06-11,69.6,62.4,89.66,off-peak,12.53,Below target
+327,BESS_North,2024-06-12,97.9,90.3,92.24,off-peak,17.62,OK
+328,BESS_South,2024-06-12,76.3,68.4,89.65,off-peak,13.73,Below target
+329,BESS_North,2024-06-13,94.8,87.8,92.62,off-peak,17.06,OK
+330,BESS_South,2024-06-13,77.5,69.4,89.55,off-peak,13.95,Below target
+331,BESS_North,2024-06-14,96.9,88.9,91.74,off-peak,17.44,OK
+332,BESS_South,2024-06-14,74.9,67.3,89.85,off-peak,13.48,Below target
+333,BESS_North,2024-06-15,99.6,91.8,92.17,off-peak,17.93,OK
+334,BESS_South,2024-06-15,75.0,67.6,90.13,off-peak,13.5,OK
+335,BESS_North,2024-06-16,96.8,89.3,92.25,off-peak,17.42,OK
+336,BESS_South,2024-06-16,68.8,61.7,89.68,off-peak,12.38,Below target
+337,BESS_North,2024-06-17,95.7,87.9,91.85,off-peak,17.23,OK
+338,BESS_South,2024-06-17,75.2,67.4,89.63,off-peak,13.54,Below target
+339,BESS_North,2024-06-18,91.3,84.1,92.11,off-peak,16.43,OK
+340,BESS_South,2024-06-18,75.2,67.3,89.49,off-peak,13.54,Below target
+341,BESS_North,2024-06-19,90.5,83.3,92.04,off-peak,16.29,OK
+342,BESS_South,2024-06-19,68.3,61.2,89.6,off-peak,12.29,Below target
+343,BESS_North,2024-06-20,93.7,86.7,92.53,off-peak,16.87,OK
+344,BESS_South,2024-06-20,68.8,62.0,90.12,off-peak,12.38,OK
+345,BESS_North,2024-06-21,91.8,84.6,92.16,off-peak,16.52,OK
+346,BESS_South,2024-06-21,75.6,68.1,90.08,off-peak,13.61,OK
+347,BESS_North,2024-06-22,98.2,90.2,91.85,off-peak,17.68,OK
+348,BESS_South,2024-06-22,68.3,61.3,89.75,off-peak,12.29,Below target
+349,BESS_North,2024-06-23,92.1,84.5,91.75,off-peak,16.58,OK
+350,BESS_South,2024-06-23,70.4,62.8,89.2,off-peak,12.67,Below target
+351,BESS_North,2024-06-24,95.0,87.3,91.89,off-peak,17.1,OK
+352,BESS_South,2024-06-24,70.4,63.3,89.91,off-peak,12.67,Below target
+353,BESS_North,2024-06-25,92.8,85.5,92.13,off-peak,16.7,OK
+354,BESS_South,2024-06-25,73.6,65.6,89.13,off-peak,13.25,Below target
+355,BESS_North,2024-06-26,97.0,89.3,92.06,off-peak,17.46,OK
+356,BESS_South,2024-06-26,70.4,62.9,89.35,off-peak,12.67,Below target
+357,BESS_North,2024-06-27,95.6,88.5,92.57,off-peak,17.21,OK
+358,BESS_South,2024-06-27,70.0,62.8,89.71,off-peak,12.6,Below target
+359,BESS_North,2024-06-28,90.5,83.2,91.93,off-peak,16.29,OK
+360,BESS_South,2024-06-28,76.0,68.1,89.61,off-peak,13.68,Below target
+361,BESS_North,2024-06-29,93.0,86.0,92.47,off-peak,16.74,OK
+362,BESS_South,2024-06-29,75.5,67.8,89.8,off-peak,13.59,Below target
+363,BESS_North,2024-06-30,94.0,86.3,91.81,off-peak,16.92,OK
+364,BESS_South,2024-06-30,71.1,63.6,89.45,off-peak,12.8,Below target
+365,BESS_North,2024-07-01,97.6,89.7,91.91,off-peak,17.57,OK
+366,BESS_South,2024-07-01,75.4,67.2,89.12,off-peak,13.57,Below target
+367,BESS_North,2024-07-02,93.0,85.4,91.83,off-peak,16.74,OK
+368,BESS_South,2024-07-02,73.5,66.1,89.93,off-peak,13.23,Below target
+369,BESS_North,2024-07-03,94.6,87.3,92.28,off-peak,17.03,OK
+370,BESS_South,2024-07-03,69.8,62.8,89.97,off-peak,12.56,Below target
+371,BESS_North,2024-07-04,98.4,90.2,91.67,off-peak,17.71,OK
+372,BESS_South,2024-07-04,69.4,62.2,89.63,off-peak,12.49,Below target
+373,BESS_North,2024-07-05,93.7,86.4,92.21,off-peak,16.87,OK
+374,BESS_South,2024-07-05,68.2,61.1,89.59,off-peak,12.28,Below target
+375,BESS_North,2024-07-06,95.4,87.6,91.82,off-peak,17.17,OK
+376,BESS_South,2024-07-06,69.1,61.6,89.15,off-peak,12.44,Below target
+377,BESS_North,2024-07-07,98.2,90.2,91.85,off-peak,17.68,OK
+378,BESS_South,2024-07-07,73.7,66.3,89.96,off-peak,13.27,Below target
+379,BESS_North,2024-07-08,90.9,83.6,91.97,off-peak,16.36,OK
+380,BESS_South,2024-07-08,68.8,61.8,89.83,off-peak,12.38,Below target
+381,BESS_North,2024-07-09,92.3,85.3,92.42,off-peak,16.61,OK
+382,BESS_South,2024-07-09,77.2,69.2,89.64,off-peak,13.9,Below target
+383,BESS_North,2024-07-10,91.8,84.8,92.37,off-peak,16.52,OK
+384,BESS_South,2024-07-10,77.3,69.0,89.26,off-peak,13.91,Below target
+385,BESS_North,2024-07-11,93.8,86.6,92.32,off-peak,16.88,OK
+386,BESS_South,2024-07-11,68.5,61.2,89.34,off-peak,12.33,Below target
+387,BESS_North,2024-07-12,99.7,91.6,91.88,off-peak,17.95,OK
+388,BESS_South,2024-07-12,70.3,62.9,89.47,off-peak,12.65,Below target
+389,BESS_North,2024-07-13,90.9,83.8,92.19,off-peak,16.36,OK
+390,BESS_South,2024-07-13,69.5,62.3,89.64,off-peak,12.51,Below target
+391,BESS_North,2024-07-14,91.1,83.4,91.55,off-peak,16.4,OK
+392,BESS_South,2024-07-14,69.3,61.8,89.18,off-peak,12.47,Below target
+393,BESS_North,2024-07-15,90.3,83.0,91.92,off-peak,16.25,OK
+394,BESS_South,2024-07-15,68.1,60.8,89.28,off-peak,12.26,Below target
+395,BESS_North,2024-07-16,95.7,87.7,91.64,off-peak,17.23,OK
+396,BESS_South,2024-07-16,72.9,64.9,89.03,off-peak,13.12,Below target
+397,BESS_North,2024-07-17,93.6,86.5,92.41,off-peak,16.85,OK
+398,BESS_South,2024-07-17,72.6,64.7,89.12,off-peak,13.07,Below target
+399,BESS_North,2024-07-18,98.0,90.0,91.84,off-peak,17.64,OK
+400,BESS_South,2024-07-18,71.0,63.6,89.58,off-peak,12.78,Below target
+401,BESS_North,2024-07-19,99.7,91.5,91.78,off-peak,17.95,OK
+402,BESS_South,2024-07-19,71.3,63.6,89.2,off-peak,12.83,Below target
+403,BESS_North,2024-07-20,95.9,88.3,92.08,off-peak,17.26,OK
+404,BESS_South,2024-07-20,77.4,69.0,89.15,off-peak,13.93,Below target
+405,BESS_North,2024-07-21,96.7,88.6,91.62,off-peak,17.41,OK
+406,BESS_South,2024-07-21,75.9,67.5,88.93,off-peak,13.66,Below target
+407,BESS_North,2024-07-22,95.4,88.0,92.24,off-peak,17.17,OK
+408,BESS_South,2024-07-22,69.1,61.6,89.15,off-peak,12.44,Below target
+409,BESS_North,2024-07-23,95.6,88.1,92.15,off-peak,17.21,OK
+410,BESS_South,2024-07-23,69.1,61.5,89.0,off-peak,12.44,Below target
+411,BESS_North,2024-07-24,94.5,86.8,91.85,off-peak,17.01,OK
+412,BESS_South,2024-07-24,71.4,63.5,88.94,off-peak,12.85,Below target
+413,BESS_North,2024-07-25,98.3,90.6,92.17,off-peak,17.69,OK
+414,BESS_South,2024-07-25,71.5,63.6,88.95,off-peak,12.87,Below target
+415,BESS_North,2024-07-26,90.4,83.3,92.15,off-peak,16.27,OK
+416,BESS_South,2024-07-26,77.3,69.2,89.52,off-peak,13.91,Below target
+417,BESS_North,2024-07-27,99.6,91.3,91.67,off-peak,17.93,OK
+418,BESS_South,2024-07-27,72.0,64.5,89.58,off-peak,12.96,Below target
+419,BESS_North,2024-07-28,90.0,82.5,91.67,off-peak,16.2,OK
+420,BESS_South,2024-07-28,76.0,67.9,89.34,off-peak,13.68,Below target
+421,BESS_North,2024-07-29,96.7,88.9,91.93,off-peak,17.41,OK
+422,BESS_South,2024-07-29,73.9,65.9,89.17,off-peak,13.3,Below target
+423,BESS_North,2024-07-30,99.2,91.3,92.04,off-peak,17.86,OK
+424,BESS_South,2024-07-30,69.2,61.7,89.16,off-peak,12.46,Below target
+425,BESS_North,2024-07-31,95.7,87.9,91.85,off-peak,17.23,OK
+426,BESS_South,2024-07-31,73.5,65.6,89.25,off-peak,13.23,Below target
+427,BESS_North,2024-08-01,98.7,91.2,92.4,off-peak,17.77,OK
+428,BESS_South,2024-08-01,72.1,64.4,89.32,off-peak,12.98,Below target
+429,BESS_North,2024-08-02,95.7,88.3,92.27,off-peak,17.23,OK
+430,BESS_South,2024-08-02,69.7,62.2,89.24,off-peak,12.55,Below target
+431,BESS_North,2024-08-03,95.7,87.8,91.75,off-peak,17.23,OK
+432,BESS_South,2024-08-03,75.6,67.5,89.29,off-peak,13.61,Below target
+433,BESS_North,2024-08-04,93.0,85.9,92.37,off-peak,16.74,OK
+434,BESS_South,2024-08-04,76.7,68.2,88.92,off-peak,13.81,Below target
+435,BESS_North,2024-08-05,98.6,90.7,91.99,off-peak,17.75,OK
+436,BESS_South,2024-08-05,76.1,68.0,89.36,off-peak,13.7,Below target
+437,BESS_North,2024-08-06,99.8,91.5,91.68,off-peak,17.96,OK
+438,BESS_South,2024-08-06,69.4,62.1,89.48,off-peak,12.49,Below target
+439,BESS_North,2024-08-07,97.0,88.8,91.55,off-peak,17.46,OK
+440,BESS_South,2024-08-07,72.9,65.1,89.3,off-peak,13.12,Below target
+441,BESS_North,2024-08-08,96.3,88.9,92.32,off-peak,17.33,OK
+442,BESS_South,2024-08-08,72.5,64.7,89.24,off-peak,13.05,Below target
+443,BESS_North,2024-08-09,97.3,89.4,91.88,off-peak,17.51,OK
+444,BESS_South,2024-08-09,70.2,62.6,89.17,off-peak,12.64,Below target
+445,BESS_North,2024-08-10,95.5,87.4,91.52,off-peak,17.19,OK
+446,BESS_South,2024-08-10,68.5,61.2,89.34,off-peak,12.33,Below target
+447,BESS_North,2024-08-11,94.6,87.4,92.39,off-peak,17.03,OK
+448,BESS_South,2024-08-11,69.6,62.4,89.66,off-peak,12.53,Below target
+449,BESS_North,2024-08-12,93.7,86.5,92.32,off-peak,16.87,OK
+450,BESS_South,2024-08-12,72.3,64.2,88.8,off-peak,13.01,Below target
+451,BESS_North,2024-08-13,95.9,88.1,91.87,off-peak,17.26,OK
+452,BESS_South,2024-08-13,77.9,69.4,89.09,off-peak,14.02,Below target
+453,BESS_North,2024-08-14,97.3,89.0,91.47,off-peak,17.51,OK
+454,BESS_South,2024-08-14,75.7,67.7,89.43,off-peak,13.63,Below target
+455,BESS_North,2024-08-15,95.3,87.1,91.4,off-peak,17.15,OK
+456,BESS_South,2024-08-15,74.3,66.0,88.83,off-peak,13.37,Below target
+457,BESS_North,2024-08-16,99.0,90.6,91.52,off-peak,17.82,OK
+458,BESS_South,2024-08-16,71.1,63.1,88.75,off-peak,12.8,Below target
+459,BESS_North,2024-08-17,97.8,90.0,92.02,off-peak,17.6,OK
+460,BESS_South,2024-08-17,73.2,65.3,89.21,off-peak,13.18,Below target
+461,BESS_North,2024-08-18,94.9,86.8,91.46,off-peak,17.08,OK
+462,BESS_South,2024-08-18,77.9,69.8,89.6,off-peak,14.02,Below target
+463,BESS_North,2024-08-19,93.7,86.2,92.0,off-peak,16.87,OK
+464,BESS_South,2024-08-19,73.9,65.5,88.63,off-peak,13.3,Below target
+465,BESS_North,2024-08-20,96.3,88.4,91.8,off-peak,17.33,OK
+466,BESS_South,2024-08-20,70.8,63.0,88.98,off-peak,12.74,Below target
+467,BESS_North,2024-08-21,93.9,86.4,92.01,off-peak,16.9,OK
+468,BESS_South,2024-08-21,75.0,67.0,89.33,off-peak,13.5,Below target
+469,BESS_North,2024-08-22,91.2,83.9,92.0,off-peak,16.42,OK
+470,BESS_South,2024-08-22,69.2,61.8,89.31,off-peak,12.46,Below target
+471,BESS_North,2024-08-23,91.7,83.9,91.49,off-peak,16.51,OK
+472,BESS_South,2024-08-23,71.4,63.6,89.08,off-peak,12.85,Below target
+473,BESS_North,2024-08-24,95.0,87.2,91.79,off-peak,17.1,OK
+474,BESS_South,2024-08-24,69.6,62.2,89.37,off-peak,12.53,Below target
+475,BESS_North,2024-08-25,97.4,88.9,91.27,off-peak,17.53,OK
+476,BESS_South,2024-08-25,71.6,64.1,89.53,off-peak,12.89,Below target
+477,BESS_North,2024-08-26,92.2,84.4,91.54,off-peak,16.6,OK
+478,BESS_South,2024-08-26,69.2,61.8,89.31,off-peak,12.46,Below target
+479,BESS_North,2024-08-27,99.5,90.9,91.36,off-peak,17.91,OK
+480,BESS_South,2024-08-27,68.9,61.4,89.11,off-peak,12.4,Below target
+481,BESS_North,2024-08-28,94.6,86.9,91.86,off-peak,17.03,OK
+482,BESS_South,2024-08-28,69.5,62.2,89.5,off-peak,12.51,Below target
+483,BESS_North,2024-08-29,99.5,90.8,91.26,off-peak,17.91,OK
+484,BESS_South,2024-08-29,69.0,61.5,89.13,off-peak,12.42,Below target
+485,BESS_North,2024-08-30,97.1,88.7,91.35,off-peak,17.48,OK
+486,BESS_South,2024-08-30,75.0,66.7,88.93,off-peak,13.5,Below target
+487,BESS_North,2024-08-31,96.4,88.4,91.7,off-peak,17.35,OK
+488,BESS_South,2024-08-31,70.4,62.5,88.78,off-peak,12.67,Below target
+489,BESS_North,2024-09-01,93.2,85.3,91.52,off-peak,16.78,OK
+490,BESS_South,2024-09-01,69.6,61.7,88.65,off-peak,12.53,Below target
+491,BESS_North,2024-09-02,99.6,91.1,91.47,off-peak,17.93,OK
+492,BESS_South,2024-09-02,69.6,62.1,89.22,off-peak,12.53,Below target
+493,BESS_North,2024-09-03,98.4,90.1,91.57,off-peak,17.71,OK
+494,BESS_South,2024-09-03,73.1,65.2,89.19,off-peak,13.16,Below target
+495,BESS_North,2024-09-04,98.5,90.4,91.78,off-peak,17.73,OK
+496,BESS_South,2024-09-04,69.2,61.3,88.58,off-peak,12.46,Below target
+497,BESS_North,2024-09-05,93.7,86.1,91.89,off-peak,16.87,OK
+498,BESS_South,2024-09-05,68.2,60.4,88.56,off-peak,12.28,Below target
+499,BESS_North,2024-09-06,99.1,91.3,92.13,off-peak,17.84,OK
+500,BESS_South,2024-09-06,69.7,62.1,89.1,off-peak,12.55,Below target
+501,BESS_North,2024-09-07,96.8,88.5,91.43,off-peak,17.42,OK
+502,BESS_South,2024-09-07,76.8,68.0,88.54,off-peak,13.82,Below target
+503,BESS_North,2024-09-08,94.1,86.4,91.82,off-peak,16.94,OK
+504,BESS_South,2024-09-08,70.0,62.6,89.43,off-peak,12.6,Below target
+505,BESS_North,2024-09-09,99.9,91.9,91.99,off-peak,17.98,OK
+506,BESS_South,2024-09-09,77.1,68.6,88.98,off-peak,13.88,Below target
+507,BESS_North,2024-09-10,90.3,83.1,92.03,off-peak,16.25,OK
+508,BESS_South,2024-09-10,75.7,67.7,89.43,off-peak,13.63,Below target
+509,BESS_North,2024-09-11,92.7,85.3,92.02,off-peak,16.69,OK
+510,BESS_South,2024-09-11,71.5,63.9,89.37,off-peak,12.87,Below target
+511,BESS_North,2024-09-12,98.1,90.2,91.95,off-peak,17.66,OK
+512,BESS_South,2024-09-12,77.5,69.0,89.03,off-peak,13.95,Below target
+513,BESS_North,2024-09-13,91.8,83.8,91.29,off-peak,16.52,OK
+514,BESS_South,2024-09-13,68.0,60.8,89.41,off-peak,12.24,Below target
+515,BESS_North,2024-09-14,99.2,91.3,92.04,off-peak,17.86,OK
+516,BESS_South,2024-09-14,75.7,67.6,89.3,off-peak,13.63,Below target
+517,BESS_North,2024-09-15,95.9,87.8,91.55,off-peak,17.26,OK
+518,BESS_South,2024-09-15,75.9,67.9,89.46,off-peak,13.66,Below target
+519,BESS_North,2024-09-16,92.2,84.6,91.76,off-peak,16.6,OK
+520,BESS_South,2024-09-16,69.3,61.8,89.18,off-peak,12.47,Below target
+521,BESS_North,2024-09-17,91.8,84.0,91.5,off-peak,16.52,OK
+522,BESS_South,2024-09-17,77.4,68.5,88.5,off-peak,13.93,Below target
+523,BESS_North,2024-09-18,96.4,88.8,92.12,off-peak,17.35,OK
+524,BESS_South,2024-09-18,72.5,64.3,88.69,off-peak,13.05,Below target
+525,BESS_North,2024-09-19,97.2,88.7,91.26,off-peak,17.5,OK
+526,BESS_South,2024-09-19,72.9,64.7,88.75,off-peak,13.12,Below target
+527,BESS_North,2024-09-20,91.6,83.6,91.27,off-peak,16.49,OK
+528,BESS_South,2024-09-20,77.5,68.6,88.52,off-peak,13.95,Below target
+529,BESS_North,2024-09-21,95.5,87.9,92.04,off-peak,17.19,OK
+530,BESS_South,2024-09-21,75.0,66.6,88.8,off-peak,13.5,Below target
+531,BESS_North,2024-09-22,90.5,82.8,91.49,off-peak,16.29,OK
+532,BESS_South,2024-09-22,74.6,66.2,88.74,off-peak,13.43,Below target
+533,BESS_North,2024-09-23,91.5,83.8,91.58,off-peak,16.47,OK
+534,BESS_South,2024-09-23,70.0,61.9,88.43,off-peak,12.6,Below target
+535,BESS_North,2024-09-24,98.4,90.0,91.46,off-peak,17.71,OK
+536,BESS_South,2024-09-24,68.9,61.3,88.97,off-peak,12.4,Below target
+537,BESS_North,2024-09-25,94.5,86.4,91.43,off-peak,17.01,OK
+538,BESS_South,2024-09-25,69.5,61.9,89.06,off-peak,12.51,Below target
+539,BESS_North,2024-09-26,99.7,91.5,91.78,off-peak,17.95,OK
+540,BESS_South,2024-09-26,77.7,69.2,89.06,off-peak,13.99,Below target
+541,BESS_North,2024-09-27,93.0,85.1,91.51,off-peak,16.74,OK
+542,BESS_South,2024-09-27,69.2,61.7,89.16,off-peak,12.46,Below target
+543,BESS_North,2024-09-28,91.3,83.6,91.57,off-peak,16.43,OK
+544,BESS_South,2024-09-28,76.3,67.6,88.6,off-peak,13.73,Below target
+545,BESS_North,2024-09-29,93.9,86.0,91.59,off-peak,16.9,OK
+546,BESS_South,2024-09-29,75.9,67.5,88.93,off-peak,13.66,Below target
+547,BESS_North,2024-09-30,91.5,83.9,91.69,off-peak,16.47,OK
+548,BESS_South,2024-09-30,75.9,67.7,89.2,off-peak,13.66,Below target
+549,BESS_North,2024-10-01,96.5,88.5,91.71,off-peak,17.37,OK
+550,BESS_South,2024-10-01,74.2,66.0,88.95,off-peak,13.36,Below target
+551,BESS_North,2024-10-02,90.5,82.9,91.6,off-peak,16.29,OK
+552,BESS_South,2024-10-02,71.1,63.4,89.17,off-peak,12.8,Below target
+553,BESS_North,2024-10-03,93.0,85.4,91.83,off-peak,16.74,OK
+554,BESS_South,2024-10-03,74.0,65.4,88.38,off-peak,13.32,Below target
+555,BESS_North,2024-10-04,97.6,89.8,92.01,off-peak,17.57,OK
+556,BESS_South,2024-10-04,71.1,63.1,88.75,off-peak,12.8,Below target
+557,BESS_North,2024-10-05,91.7,84.4,92.04,off-peak,16.51,OK
+558,BESS_South,2024-10-05,68.5,60.7,88.61,off-peak,12.33,Below target
+559,BESS_North,2024-10-06,96.4,87.9,91.18,off-peak,17.35,OK
+560,BESS_South,2024-10-06,69.8,62.2,89.11,off-peak,12.56,Below target
+561,BESS_North,2024-10-07,97.5,89.5,91.79,off-peak,17.55,OK
+562,BESS_South,2024-10-07,76.6,68.1,88.9,off-peak,13.79,Below target
+563,BESS_North,2024-10-08,98.6,90.8,92.09,off-peak,17.75,OK
+564,BESS_South,2024-10-08,74.0,65.3,88.24,off-peak,13.32,Below target
+565,BESS_North,2024-10-09,94.2,86.2,91.51,off-peak,16.96,OK
+566,BESS_South,2024-10-09,74.8,66.6,89.04,off-peak,13.46,Below target
+567,BESS_North,2024-10-10,95.6,87.6,91.63,off-peak,17.21,OK
+568,BESS_South,2024-10-10,71.4,63.2,88.52,off-peak,12.85,Below target
+569,BESS_North,2024-10-11,91.9,84.2,91.62,off-peak,16.54,OK
+570,BESS_South,2024-10-11,74.6,66.3,88.87,off-peak,13.43,Below target
+571,BESS_North,2024-10-12,99.1,90.7,91.52,off-peak,17.84,OK
+572,BESS_South,2024-10-12,71.4,63.5,88.94,off-peak,12.85,Below target
+573,BESS_North,2024-10-13,95.1,87.4,91.9,off-peak,17.12,OK
+574,BESS_South,2024-10-13,69.0,61.0,88.41,off-peak,12.42,Below target
+575,BESS_North,2024-10-14,96.5,88.1,91.3,off-peak,17.37,OK
+576,BESS_South,2024-10-14,71.7,63.7,88.84,off-peak,12.91,Below target
+577,BESS_North,2024-10-15,94.7,86.4,91.24,off-peak,17.05,OK
+578,BESS_South,2024-10-15,72.1,64.2,89.04,off-peak,12.98,Below target
+579,BESS_North,2024-10-16,99.9,91.9,91.99,off-peak,17.98,OK
+580,BESS_South,2024-10-16,75.8,67.2,88.65,off-peak,13.64,Below target
+581,BESS_North,2024-10-17,90.0,82.2,91.33,off-peak,16.2,OK
+582,BESS_South,2024-10-17,75.9,67.5,88.93,off-peak,13.66,Below target
+583,BESS_North,2024-10-18,94.3,86.3,91.52,off-peak,16.97,OK
+584,BESS_South,2024-10-18,77.5,69.0,89.03,off-peak,13.95,Below target
+585,BESS_North,2024-10-19,96.3,87.9,91.28,off-peak,17.33,OK
+586,BESS_South,2024-10-19,71.8,63.7,88.72,off-peak,12.92,Below target
+587,BESS_North,2024-10-20,94.6,86.6,91.54,off-peak,17.03,OK
+588,BESS_South,2024-10-20,71.4,63.6,89.08,off-peak,12.85,Below target
+589,BESS_North,2024-10-21,92.3,84.7,91.77,off-peak,16.61,OK
+590,BESS_South,2024-10-21,69.2,61.5,88.87,off-peak,12.46,Below target
+591,BESS_North,2024-10-22,97.7,89.5,91.61,off-peak,17.59,OK
+592,BESS_South,2024-10-22,68.5,60.5,88.32,off-peak,12.33,Below target
+593,BESS_North,2024-10-23,97.0,88.5,91.24,off-peak,17.46,OK
+594,BESS_South,2024-10-23,74.6,65.9,88.34,off-peak,13.43,Below target
+595,BESS_North,2024-10-24,92.8,85.2,91.81,off-peak,16.7,OK
+596,BESS_South,2024-10-24,71.6,63.4,88.55,off-peak,12.89,Below target
+597,BESS_North,2024-10-25,93.3,84.9,91.0,off-peak,16.79,OK
+598,BESS_South,2024-10-25,69.5,61.3,88.2,off-peak,12.51,Below target
+599,BESS_North,2024-10-26,96.4,88.2,91.49,off-peak,17.35,OK
+600,BESS_South,2024-10-26,76.1,67.7,88.96,off-peak,13.7,Below target
+601,BESS_North,2024-10-27,94.3,85.9,91.09,off-peak,16.97,OK
+602,BESS_South,2024-10-27,74.6,65.8,88.2,off-peak,13.43,Below target
+603,BESS_North,2024-10-28,98.8,90.0,91.09,off-peak,17.78,OK
+604,BESS_South,2024-10-28,77.6,68.6,88.4,off-peak,13.97,Below target
+605,BESS_North,2024-10-29,91.1,83.5,91.66,off-peak,16.4,OK
+606,BESS_South,2024-10-29,72.2,64.0,88.64,off-peak,13.0,Below target
+607,BESS_North,2024-10-30,97.8,89.6,91.62,off-peak,17.6,OK
+608,BESS_South,2024-10-30,72.8,64.5,88.6,off-peak,13.1,Below target
+609,BESS_North,2024-10-31,96.5,87.8,90.98,off-peak,17.37,OK
+610,BESS_South,2024-10-31,77.8,69.0,88.69,off-peak,14.0,Below target
+611,BESS_North,2024-11-01,94.3,86.5,91.73,off-peak,16.97,OK
+612,BESS_South,2024-11-01,69.5,61.8,88.92,off-peak,12.51,Below target
+613,BESS_North,2024-11-02,95.1,87.0,91.48,off-peak,17.12,OK
+614,BESS_South,2024-11-02,70.4,62.7,89.06,off-peak,12.67,Below target
+615,BESS_North,2024-11-03,94.0,85.7,91.17,off-peak,16.92,OK
+616,BESS_South,2024-11-03,76.6,67.8,88.51,off-peak,13.79,Below target
+617,BESS_North,2024-11-04,91.0,83.1,91.32,off-peak,16.38,OK
+618,BESS_South,2024-11-04,76.9,68.1,88.56,off-peak,13.84,Below target
+619,BESS_North,2024-11-05,98.3,90.2,91.76,off-peak,17.69,OK
+620,BESS_South,2024-11-05,75.2,66.5,88.43,off-peak,13.54,Below target
+621,BESS_North,2024-11-06,90.0,82.2,91.33,off-peak,16.2,OK
+622,BESS_South,2024-11-06,75.0,66.0,88.0,off-peak,13.5,Below target
+623,BESS_North,2024-11-07,91.1,83.4,91.55,off-peak,16.4,OK
+624,BESS_South,2024-11-07,72.6,64.5,88.84,off-peak,13.07,Below target
+625,BESS_North,2024-11-08,99.3,91.1,91.74,off-peak,17.87,OK
+626,BESS_South,2024-11-08,74.6,66.4,89.01,off-peak,13.43,Below target
+627,BESS_North,2024-11-09,95.5,87.3,91.41,off-peak,17.19,OK
+628,BESS_South,2024-11-09,75.3,66.4,88.18,off-peak,13.55,Below target
+629,BESS_North,2024-11-10,94.2,86.2,91.51,off-peak,16.96,OK
+630,BESS_South,2024-11-10,77.7,68.7,88.42,off-peak,13.99,Below target
+631,BESS_North,2024-11-11,98.4,90.0,91.46,off-peak,17.71,OK
+632,BESS_South,2024-11-11,70.0,62.0,88.57,off-peak,12.6,Below target
+633,BESS_North,2024-11-12,99.8,91.4,91.58,off-peak,17.96,OK
+634,BESS_South,2024-11-12,75.1,66.6,88.68,off-peak,13.52,Below target
+635,BESS_North,2024-11-13,96.7,88.8,91.83,off-peak,17.41,OK
+636,BESS_South,2024-11-13,73.2,64.4,87.98,off-peak,13.18,Below target
+637,BESS_North,2024-11-14,97.5,88.8,91.08,off-peak,17.55,OK
+638,BESS_South,2024-11-14,70.0,61.9,88.43,off-peak,12.6,Below target
+639,BESS_North,2024-11-15,97.4,89.1,91.48,off-peak,17.53,OK
+640,BESS_South,2024-11-15,74.9,65.9,87.98,off-peak,13.48,Below target
+641,BESS_North,2024-11-16,99.7,90.7,90.97,off-peak,17.95,OK
+642,BESS_South,2024-11-16,77.1,68.3,88.59,off-peak,13.88,Below target
+643,BESS_North,2024-11-17,97.8,89.8,91.82,off-peak,17.6,OK
+644,BESS_South,2024-11-17,69.9,61.6,88.13,off-peak,12.58,Below target
+645,BESS_North,2024-11-18,95.6,87.0,91.0,off-peak,17.21,OK
+646,BESS_South,2024-11-18,75.1,66.1,88.02,off-peak,13.52,Below target
+647,BESS_North,2024-11-19,94.9,86.8,91.46,off-peak,17.08,OK
+648,BESS_South,2024-11-19,77.6,68.6,88.4,off-peak,13.97,Below target
+649,BESS_North,2024-11-20,90.9,82.8,91.09,off-peak,16.36,OK
+650,BESS_South,2024-11-20,70.2,62.2,88.6,off-peak,12.64,Below target
+651,BESS_North,2024-11-21,91.1,83.1,91.22,off-peak,16.4,OK
+652,BESS_South,2024-11-21,77.6,68.7,88.53,off-peak,13.97,Below target
+653,BESS_North,2024-11-22,92.6,84.8,91.58,off-peak,16.67,OK
+654,BESS_South,2024-11-22,72.9,64.3,88.2,off-peak,13.12,Below target
+655,BESS_North,2024-11-23,91.7,84.2,91.82,off-peak,16.51,OK
+656,BESS_South,2024-11-23,74.7,66.2,88.62,off-peak,13.45,Below target
+657,BESS_North,2024-11-24,95.4,87.4,91.61,off-peak,17.17,OK
+658,BESS_South,2024-11-24,75.5,66.5,88.08,off-peak,13.59,Below target
+659,BESS_North,2024-11-25,90.5,82.9,91.6,off-peak,16.29,OK
+660,BESS_South,2024-11-25,72.1,63.7,88.35,off-peak,12.98,Below target
+661,BESS_North,2024-11-26,95.3,87.2,91.5,off-peak,17.15,OK
+662,BESS_South,2024-11-26,75.0,65.9,87.87,off-peak,13.5,Below target
+663,BESS_North,2024-11-27,96.1,87.6,91.16,off-peak,17.3,OK
+664,BESS_South,2024-11-27,72.7,64.3,88.45,off-peak,13.09,Below target
+665,BESS_North,2024-11-28,99.6,90.6,90.96,off-peak,17.93,OK
+666,BESS_South,2024-11-28,77.6,68.2,87.89,off-peak,13.97,Below target
+667,BESS_North,2024-11-29,95.7,87.3,91.22,off-peak,17.23,OK
+668,BESS_South,2024-11-29,70.1,62.2,88.73,off-peak,12.62,Below target
+669,BESS_North,2024-11-30,96.2,87.6,91.06,off-peak,17.32,OK
+670,BESS_South,2024-11-30,76.5,67.9,88.76,off-peak,13.77,Below target
+671,BESS_North,2024-12-01,92.9,84.4,90.85,off-peak,16.72,OK
+672,BESS_South,2024-12-01,71.6,63.4,88.55,off-peak,12.89,Below target
+673,BESS_North,2024-12-02,93.2,85.1,91.31,off-peak,16.78,OK
+674,BESS_South,2024-12-02,73.7,65.0,88.2,off-peak,13.27,Below target
+675,BESS_North,2024-12-03,92.5,84.2,91.03,off-peak,16.65,OK
+676,BESS_South,2024-12-03,74.8,65.9,88.1,off-peak,13.46,Below target
+677,BESS_North,2024-12-04,95.5,86.9,90.99,off-peak,17.19,OK
+678,BESS_South,2024-12-04,70.6,62.6,88.67,off-peak,12.71,Below target
+679,BESS_North,2024-12-05,98.1,89.6,91.34,off-peak,17.66,OK
+680,BESS_South,2024-12-05,73.4,65.2,88.83,off-peak,13.21,Below target
+681,BESS_North,2024-12-06,92.2,84.4,91.54,off-peak,16.6,OK
+682,BESS_South,2024-12-06,72.0,63.6,88.33,off-peak,12.96,Below target
+683,BESS_North,2024-12-07,97.6,88.8,90.98,off-peak,17.57,OK
+684,BESS_South,2024-12-07,75.4,66.5,88.2,off-peak,13.57,Below target
+685,BESS_North,2024-12-08,90.6,82.6,91.17,off-peak,16.31,OK
+686,BESS_South,2024-12-08,72.7,64.1,88.17,off-peak,13.09,Below target
+687,BESS_North,2024-12-09,97.0,88.6,91.34,off-peak,17.46,OK
+688,BESS_South,2024-12-09,71.8,63.3,88.16,off-peak,12.92,Below target
+689,BESS_North,2024-12-10,93.8,86.0,91.68,off-peak,16.88,OK
+690,BESS_South,2024-12-10,75.9,67.3,88.67,off-peak,13.66,Below target
+691,BESS_North,2024-12-11,92.3,84.3,91.33,off-peak,16.61,OK
+692,BESS_South,2024-12-11,74.0,65.5,88.51,off-peak,13.32,Below target
+693,BESS_North,2024-12-12,94.8,86.5,91.24,off-peak,17.06,OK
+694,BESS_South,2024-12-12,70.4,61.9,87.93,off-peak,12.67,Below target
+695,BESS_North,2024-12-13,98.9,89.9,90.9,off-peak,17.8,OK
+696,BESS_South,2024-12-13,74.0,65.3,88.24,off-peak,13.32,Below target
+697,BESS_North,2024-12-14,99.5,90.5,90.95,off-peak,17.91,OK
+698,BESS_South,2024-12-14,70.2,61.9,88.18,off-peak,12.64,Below target
+699,BESS_North,2024-12-15,91.7,83.9,91.49,off-peak,16.51,OK
+700,BESS_South,2024-12-15,71.8,63.1,87.88,off-peak,12.92,Below target
+701,BESS_North,2024-12-16,98.3,89.8,91.35,off-peak,17.69,OK
+702,BESS_South,2024-12-16,76.8,67.8,88.28,off-peak,13.82,Below target
+703,BESS_North,2024-12-17,99.0,90.4,91.31,off-peak,17.82,OK
+704,BESS_South,2024-12-17,73.2,64.5,88.11,off-peak,13.18,Below target
+705,BESS_North,2024-12-18,97.9,89.2,91.11,off-peak,17.62,OK
+706,BESS_South,2024-12-18,72.3,63.6,87.97,off-peak,13.01,Below target
+707,BESS_North,2024-12-19,96.0,87.6,91.25,off-peak,17.28,OK
+708,BESS_South,2024-12-19,73.8,64.8,87.8,off-peak,13.28,Below target
+709,BESS_North,2024-12-20,94.1,85.5,90.86,off-peak,16.94,OK
+710,BESS_South,2024-12-20,73.6,65.0,88.32,off-peak,13.25,Below target
+711,BESS_North,2024-12-21,95.5,87.2,91.31,off-peak,17.19,OK
+712,BESS_South,2024-12-21,77.9,68.7,88.19,off-peak,14.02,Below target
+713,BESS_North,2024-12-22,97.5,88.9,91.18,off-peak,17.55,OK
+714,BESS_South,2024-12-22,75.9,67.1,88.41,off-peak,13.66,Below target
+715,BESS_North,2024-12-23,93.9,85.8,91.37,off-peak,16.9,OK
+716,BESS_South,2024-12-23,68.9,60.6,87.95,off-peak,12.4,Below target
+717,BESS_North,2024-12-24,99.3,90.5,91.14,off-peak,17.87,OK
+718,BESS_South,2024-12-24,77.5,68.6,88.52,off-peak,13.95,Below target
+719,BESS_North,2024-12-25,91.9,84.1,91.51,off-peak,16.54,OK
+720,BESS_South,2024-12-25,74.7,65.7,87.95,off-peak,13.45,Below target
+721,BESS_North,2024-12-26,97.8,89.0,91.0,off-peak,17.6,OK
+722,BESS_South,2024-12-26,75.4,66.1,87.67,off-peak,13.57,Below target
+723,BESS_North,2024-12-27,93.5,85.6,91.55,off-peak,16.83,OK
+724,BESS_South,2024-12-27,73.7,64.8,87.92,off-peak,13.27,Below target
+725,BESS_North,2024-12-28,93.4,84.8,90.79,off-peak,16.81,OK
+726,BESS_South,2024-12-28,74.9,66.3,88.52,off-peak,13.48,Below target
+727,BESS_North,2024-12-29,96.8,88.7,91.63,off-peak,17.42,OK
+728,BESS_South,2024-12-29,71.8,63.5,88.44,off-peak,12.92,Below target
+729,BESS_North,2024-12-30,99.6,90.8,91.16,off-peak,17.93,OK
+730,BESS_South,2024-12-30,68.9,60.8,88.24,off-peak,12.4,Below target
