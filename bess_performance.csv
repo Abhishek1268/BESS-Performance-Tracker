@@ -1,0 +1,11 @@
+cycle_id,site_name,cycle_date,energy_in_kwh,energy_out_kwh,efficiency_pct,charge_zone,charge_cost_eur,status
+1,BESS_North,2024-01-01,95.0,87.3,91.89,off-peak,17.1,OK
+2,BESS_North,2024-01-02,98.0,89.1,90.92,off-peak,17.64,OK
+3,BESS_North,2024-01-03,92.0,83.5,90.76,off-peak,16.56,OK
+4,BESS_North,2024-01-04,97.0,90.2,92.99,off-peak,17.46,OK
+5,BESS_North,2024-01-05,94.0,85.8,91.28,off-peak,16.92,OK
+6,BESS_South,2024-01-01,72.0,64.8,90.0,off-peak,12.96,OK
+7,BESS_South,2024-01-02,75.0,66.0,88.0,off-peak,13.5,Below target
+8,BESS_South,2024-01-03,70.0,61.6,88.0,off-peak,12.6,Below target
+9,BESS_South,2024-01-04,74.0,67.5,91.22,off-peak,13.32,OK
+10,BESS_South,2024-01-05,73.0,65.7,90.0,off-peak,13.14,OK
