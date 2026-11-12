@@ -1,0 +1,7 @@
+site_name,c_rate_band,total_cycles,avg_c_rate,avg_efficiency_pct,min_efficiency_pct,max_efficiency_pct
+BESS_North,Low (< 0.47C),135,0.4596,89.33,87.9,90.72
+BESS_North,Medium (0.47-0.49C),156,0.4797,88.86,87.6,90.06
+BESS_North,High (> 0.49C),74,0.4949,88.66,87.46,89.96
+BESS_South,Low (< 0.47C),97,0.4618,86.75,84.94,88.48
+BESS_South,Medium (0.47-0.49C),97,0.4797,86.46,84.68,88.41
+BESS_South,High (> 0.49C),171,0.505,85.94,84.02,87.8
