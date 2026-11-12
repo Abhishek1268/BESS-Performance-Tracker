@@ -236,5 +236,5 @@ Society, 167(12). Sandia National Laboratories.
 
 **Abhishekkumar Panchal**
 M.Eng. Smart Energy Systems — Hochschule Ansbach
-[LinkedIn](https://linkedin.com/in/abhishekkumar-panchal-2391a4253) |
+[LinkedIn](https://www.linkedin.com/in/abhishekkumar-prakashkumar-panchal) |
 [GitHub](https://github.com/Abhishek1268)
