@@ -204,40 +204,41 @@ from CSV files exported from SQL queries.
 
 ## Project Structure
 
+```
 BESS-Performance-Tracker/
 │
 ├── data/
-│ ├── bess_performance.csv
-│ ├── monthly_summary.csv
-│ ├── degradation_trend.csv
-│ ├── peak_shaving_savings.csv
-│ └── rte_vs_crate.csv
+│   ├── bess_performance.csv
+│   ├── monthly_summary.csv
+│   ├── degradation_trend.csv
+│   ├── peak_shaving_savings.csv
+│   └── rte_vs_crate.csv
 │
 ├── database/
-│ └── energy_project.db
+│   └── energy_project.db
 │
 ├── python/
-│ └── generate_data.py
+│   └── generate_data.py
 │
 ├── screenshots/
-│ └── dashboard.png
+│   └── dashboard.png
 │
 ├── sql/
-│ ├── 01_create_tables.sql
-│ ├── 02_efficiency_per_cycle.sql
-│ ├── 03_charging_cost.sql
-│ ├── 04_performance_summary.sql
-│ ├── 05_site_summary.sql
-│ ├── 06_monthly_summary.sql
-│ ├── 07_degradation_trend.sql
-│ ├── 08_peak_shaving_savings.sql
-│ └── 09_rte_vs_cycle_depth.sql
+│   ├── 01_create_tables.sql
+│   ├── 02_efficiency_per_cycle.sql
+│   ├── 03_charging_cost.sql
+│   ├── 04_performance_summary.sql
+│   ├── 05_site_summary.sql
+│   ├── 06_monthly_summary.sql
+│   ├── 07_degradation_trend.sql
+│   ├── 08_peak_shaving_savings.sql
+│   └── 09_rte_vs_cycle_depth.sql
 │
 ├── vba/
-│ └── BuildDashboard.bas
+│   └── BuildDashboard.bas
 │
 ├── dashboard/
-│ └── BESS_Dashboard.xlsm
+│   └── BESS_Dashboard.xlsm
 │
 └── README.md
 ```
