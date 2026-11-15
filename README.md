@@ -74,7 +74,7 @@ One record per charge/discharge cycle per site.
 | energy_out_kwh | REAL | Energy discharged (kWh) |
 | soc_start | REAL | State of charge at start (%) |
 | soc_end | REAL | State of charge at end (%) |
-| c_rate | REAL | Cycle depth proxy (energy_in / capacity) — see metrics note |
+| cycle_depth | REAL | Throughput fraction (energy_in / capacity) — see metrics note |
 
 ---
 
@@ -93,6 +93,8 @@ One record per charge/discharge cycle per site.
   which studied RTE variation with cycling conditions. Values here are
   adapted assumptions, not direct measurements from that paper.
 - Random noise added with fixed seed (RANDOM_SEED = 42) for reproducibility
+- The generator fills existing tables only — run `01_create_tables.sql`
+  first to create the schema before running this script
 
 ---
 
@@ -108,7 +110,7 @@ One record per charge/discharge cycle per site.
 | `06_monthly_summary.sql` | Monthly efficiency, energy and cost per site |
 | `07_degradation_trend.sql` | Monthly efficiency degradation vs January baseline |
 | `08_peak_shaving_savings.sql` | Monthly net savings from peak/off-peak arbitrage |
-| `09_rte_vs_crate.sql` | RTE vs cycle depth analysis by band and site |
+| `09_rte_vs_cycle_depth.sql` | RTE vs cycle depth analysis by band and site |
 
 ---
 
@@ -117,10 +119,10 @@ One record per charge/discharge cycle per site.
 | Metric | Formula | Note |
 |---|---|---|
 | Round-trip efficiency | (energy_out / energy_in) × 100 | |
-| Cycle depth (throughput fraction) | energy_in / site capacity | Proxy for cycling intensity — not a true C-rate. A true C-rate divides power (kW) by capacity (kWh). A true C-rate would use charge duration from charge_start and charge_end. |
+| Cycle depth | energy_in / site capacity | Throughput fraction — not a true C-rate. A true C-rate divides power (kW) by capacity (kWh) using charge duration from charge_start and charge_end |
 | Charging cost | energy_in × off-peak tariff rate | Synthetic tariff |
 | Discharge revenue | energy_out × peak tariff rate | Synthetic tariff |
-| Net peak shaving saving | discharge revenue − charging cost | |
+| Net peak shaving saving | discharge revenue − charging cost | Based on synthetic tariffs — not a real-world result |
 | Degradation | monthly avg efficiency − January baseline | |
 | Status flag | OK if efficiency ≥ 90%, else Below target | |
 
@@ -129,7 +131,9 @@ One record per charge/discharge cycle per site.
 ## Excel VBA Dashboard
 
 `vba/BuildDashboard.bas` builds the full 5-sheet dashboard automatically
-from CSV files exported from SQL queries:
+from CSV files exported from SQL queries.
+
+![Dashboard screenshot](screenshots/dashboard.png)
 
 ### Sheet 1 — Dashboard
 - 730 rows of cycle-level performance data
@@ -146,11 +150,12 @@ from CSV files exported from SQL queries:
 
 ### Sheet 4 — Peak Shaving
 - 24 rows showing monthly charge cost, discharge revenue and net saving
-- Bar chart: monthly net savings per site
+- Bar chart: monthly net savings per site — based on synthetic tariffs
 
-### Sheet 5 — C-Rate Analysis
+### Sheet 5 — Cycle Depth Analysis
 - 6 rows — 3 cycle depth bands × 2 sites
 - Bar chart: average efficiency per cycle depth band per site
+- Shows RTE decreasing as cycle depth increases on both sites
 
 ---
 
@@ -166,18 +171,18 @@ from CSV files exported from SQL queries:
   confirming the analysis correctly recovers the input parameters. The 56%
   gap is the ratio of the two input rates, not an independent discovery.
 
-**Cycle depth (throughput fraction):**
+**Cycle depth analysis:**
 - BESS_South averages 0.487 cycle depth vs 0.475 for BESS_North
 - BESS_South spends 171 of 365 cycles in the high band vs 74 for BESS_North
 - Efficiency falls as cycle depth increases on both sites
 - The RTE penalty function is informed by Preger et al. (Sandia, 2020) but
-  uses cycle depth as a proxy rather than true C-rate. Values are adapted
-  assumptions, not direct measurements from the paper.
+  uses cycle depth as a proxy. Values are adapted assumptions, not direct
+  measurements from that paper.
 
-**Peak shaving savings (under synthetic tariffs):**
-- BESS_North annual net saving: €3,635.35
-- BESS_South annual net saving: €2,561.04
-- Combined annual saving: €6,196.39
+**Peak shaving savings (under synthetic tariffs — not real-world results):**
+- BESS_North annual net saving: €3,635.36
+- BESS_South annual net saving: €2,560.89
+- Combined annual saving: €6,196.25
 
 ---
 
@@ -189,10 +194,9 @@ from CSV files exported from SQL queries:
   validate the pipeline by recovering them, not discovering new findings
 - One charge and one discharge cycle per day per site — no faults,
   temperature variation or real telemetry
-- True C-rate not modelled — cycle depth used as a proxy for cycling intensity
-- The column `c_rate` in the database is misnamed — it stores a throughput
-  fraction (energy_in / capacity), not a true C-rate (power / capacity).
-  This will be corrected in a future version.
+- True C-rate not modelled — cycle depth (throughput fraction) used as a
+  proxy for cycling intensity. A true C-rate would divide power by capacity
+  using the charge duration from charge_start and charge_end columns
 - Excel VBA dashboard requires Excel on Windows
 - EV and V2B components planned for next project version
 
@@ -200,38 +204,40 @@ from CSV files exported from SQL queries:
 
 ## Project Structure
 
-```
 BESS-Performance-Tracker/
 │
 ├── data/
-│   ├── bess_performance.csv
-│   ├── monthly_summary.csv
-│   ├── degradation_trend.csv
-│   ├── peak_shaving_savings.csv
-│   └── rte_vs_crate.csv
+│ ├── bess_performance.csv
+│ ├── monthly_summary.csv
+│ ├── degradation_trend.csv
+│ ├── peak_shaving_savings.csv
+│ └── rte_vs_crate.csv
 │
 ├── database/
-│   └── energy_project.db
+│ └── energy_project.db
 │
 ├── python/
-│   └── generate_data.py
+│ └── generate_data.py
+│
+├── screenshots/
+│ └── dashboard.png
 │
 ├── sql/
-│   ├── 01_create_tables.sql
-│   ├── 02_efficiency_per_cycle.sql
-│   ├── 03_charging_cost.sql
-│   ├── 04_performance_summary.sql
-│   ├── 05_site_summary.sql
-│   ├── 06_monthly_summary.sql
-│   ├── 07_degradation_trend.sql
-│   ├── 08_peak_shaving_savings.sql
-│   └── 09_rte_vs_crate.sql
+│ ├── 01_create_tables.sql
+│ ├── 02_efficiency_per_cycle.sql
+│ ├── 03_charging_cost.sql
+│ ├── 04_performance_summary.sql
+│ ├── 05_site_summary.sql
+│ ├── 06_monthly_summary.sql
+│ ├── 07_degradation_trend.sql
+│ ├── 08_peak_shaving_savings.sql
+│ └── 09_rte_vs_cycle_depth.sql
 │
 ├── vba/
-│   └── BuildDashboard.bas
+│ └── BuildDashboard.bas
 │
 ├── dashboard/
-│   └── BESS_Dashboard.xlsm
+│ └── BESS_Dashboard.xlsm
 │
 └── README.md
 ```
@@ -243,11 +249,15 @@ BESS-Performance-Tracker/
 Requirements: Python 3 (standard library only — no pip install needed)
 
 1. Clone the repository
-2. Open `database/energy_project.db` in DB Browser for SQLite
-3. Run `python/generate_data.py` to populate the database
-4. Run each SQL query in DB Browser and export results as CSV to `data/`
-5. Open `dashboard/BESS_Dashboard.xlsm` in Excel (Windows only)
-6. Press Alt + F8 → select `BuildAllSheets` → click Run
+2. Open DB Browser for SQLite and create a new database named `energy_project.db`
+   in the `database/` folder
+3. Run `sql/01_create_tables.sql` in DB Browser to create the schema
+4. Close DB Browser completely
+5. Run `python/generate_data.py` to populate the database with 730 cycles
+6. Open DB Browser again and run each SQL query in the `sql/` folder
+7. Export each query result as CSV to the `data/` folder
+8. Open `dashboard/BESS_Dashboard.xlsm` in Excel (Windows only)
+9. Press Alt + F8 → select `BuildAllSheets` → click Run
 
 ---
 
