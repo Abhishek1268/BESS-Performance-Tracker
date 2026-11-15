@@ -133,7 +133,7 @@ One record per charge/discharge cycle per site.
 `vba/BuildDashboard.bas` builds the full 5-sheet dashboard automatically
 from CSV files exported from SQL queries.
 
-![Dashboard screenshot](screenshots/dashboard.png)
+![Dashboard screenshot](dashboard.png)
 
 ### Sheet 1 — Dashboard
 - 730 rows of cycle-level performance data
