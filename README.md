@@ -85,8 +85,8 @@ One record per charge/discharge cycle per site.
 - 365 days × 2 sites = 730 cycles
 - Charge windows set to off-peak hours (01:00 to 07:00)
 - Discharge windows set to peak hours (08:00 to 20:00)
-- Built-in degradation: BESS_North loses ~1.7% efficiency over the year,
-  BESS_South loses ~2.7%
+- Built-in degradation: BESS_North loses ~1.85% efficiency over the year,
+  BESS_South loses ~2.76%
 - Cycle depth calculated per cycle as energy_in / site capacity
 - RTE penalty applied as a function of cycle depth, informed by
   Preger et al. (Sandia National Laboratories, J Electrochem Soc 2020)
@@ -162,14 +162,15 @@ from CSV files exported from SQL queries.
 ## Results on the Synthetic Dataset
 
 **Efficiency:**
-- BESS_North averages 91.57% round-trip efficiency — above 90% target all year
-- BESS_South averages 89.44% — below target from May 2024 onwards
+- BESS_North averages 92.5% round-trip efficiency — above 90% target all year
+- BESS_South averages 89.59% — below target from June 2024 onwards
 
 **Pipeline validation:**
-- The generator builds in ~1.7% (BESS_North) and ~2.7% (BESS_South) efficiency
-  loss over the year. The degradation query returns −1.72% and −2.69%,
-  confirming the analysis correctly recovers the input parameters. The 56%
-  gap is the ratio of the two input rates, not an independent discovery.
+- The generator builds in ~1.85% (BESS_North) and ~2.76% (BESS_South)
+  efficiency loss over the year. The degradation query returns −1.85% and
+  −2.76%, confirming the analysis correctly recovers the input parameters.
+  The gap between the two sites is the ratio of the two input rates, not
+  an independent discovery.
 
 **Cycle depth analysis:**
 - BESS_South averages 0.487 cycle depth vs 0.475 for BESS_North
@@ -180,9 +181,9 @@ from CSV files exported from SQL queries.
   measurements from that paper.
 
 **Peak shaving savings (under synthetic tariffs — not real-world results):**
-- BESS_North annual net saving: €3,635.36
-- BESS_South annual net saving: €2,560.89
-- Combined annual saving: €6,196.25
+- BESS_North annual net saving: €4,024.49
+- BESS_South annual net saving: €2,842.41
+- Combined annual saving: €6,866.90
 
 ---
 
@@ -208,37 +209,37 @@ from CSV files exported from SQL queries.
 BESS-Performance-Tracker/
 │
 ├── data/
-│   ├── bess_performance.csv
-│   ├── monthly_summary.csv
-│   ├── degradation_trend.csv
-│   ├── peak_shaving_savings.csv
-│   └── rte_vs_crate.csv
+│ ├── bess_performance.csv
+│ ├── monthly_summary.csv
+│ ├── degradation_trend.csv
+│ ├── peak_shaving_savings.csv
+│ └── rte_vs_crate.csv
 │
 ├── database/
-│   └── energy_project.db
+│ └── energy_project.db
 │
 ├── python/
-│   └── generate_data.py
+│ └── generate_data.py
 │
 ├── screenshots/
-│   └── dashboard.png
+│ └── dashboard.png
 │
 ├── sql/
-│   ├── 01_create_tables.sql
-│   ├── 02_efficiency_per_cycle.sql
-│   ├── 03_charging_cost.sql
-│   ├── 04_performance_summary.sql
-│   ├── 05_site_summary.sql
-│   ├── 06_monthly_summary.sql
-│   ├── 07_degradation_trend.sql
-│   ├── 08_peak_shaving_savings.sql
-│   └── 09_rte_vs_cycle_depth.sql
+│ ├── 01_create_tables.sql
+│ ├── 02_efficiency_per_cycle.sql
+│ ├── 03_charging_cost.sql
+│ ├── 04_performance_summary.sql
+│ ├── 05_site_summary.sql
+│ ├── 06_monthly_summary.sql
+│ ├── 07_degradation_trend.sql
+│ ├── 08_peak_shaving_savings.sql
+│ └── 09_rte_vs_cycle_depth.sql
 │
 ├── vba/
-│   └── BuildDashboard.bas
+│ └── BuildDashboard.bas
 │
 ├── dashboard/
-│   └── BESS_Dashboard.xlsm
+│ └── BESS_Dashboard.xlsm
 │
 └── README.md
 ```
